@@ -1,0 +1,109 @@
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+
+    <section class="py-10 md:py-16 w-full max-w-screen-xl mx-auto px-4">
+
+        <nav class="flex items-center justify-between mb-10">
+            <img src="https://i.ibb.co/8dH67nL/navbar-logo.png" alt="Logo">
+            <button class="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Descargar mi CV</button>
+        </nav>
+
+        <div class="text-center mb-16">
+            <div class="flex justify-center mb-8" style="height: 120px;">
+                <img src="https://i.ibb.co/gZGZ66t/avatar.png" alt="Image">
+            </div>
+            <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-4">{{this.drivers[0].nombre }}</h6>
+            <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-6">Junior Backend Developer</h1>
+            <p class="font-normal text-gray-600 text-md md:text-xl mb-10">Tengo pasión por el software. Disfruto creando herramientas que hagan la vida más fácil a las personas.</p>
+            <a href="#" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Contratame😊</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                    <i data-feather="activity"></i>
+                </div>
+                <h4 class="font-medium text-gray-700 text-lg mb-4">Alta experiencia</h4>
+                <p class="font-normal text-gray-500 text-md">Tengo amplia experiencia en el desarrollo con C#, .NET y bases de datos SQL y NoSQL. He trabajado en diversos proyectos, demostrando mi capacidad para crear soluciones robustas y escalables utilizando estas tecnologías.</p>
+            </div>
+            <div class="bg-gray-50 px-8 py-10 rounded-md md:col-span-1 lg:col-span-2 lg:ml-auto">
+                <div class="w-20 py-6 flex justify-center bg-gray-100 rounded-md mb-4">
+                    <i data-feather="coffee"></i>
+                </div>
+                <h4 class="font-medium text-gray-700 text-lg mb-4">Proyectos de éxito</h4>
+                <p class="font-normal text-gray-500 text-md">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        
+
+        <div class="mb-16">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-4">Portafolio</h1>
+            <p class="font-normal text-gray-500 text-xs md:text-base mb-10">Aquí he traído mis trabajos más importantes y favoritos como profesional.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">01</h1>
+                    <div class="w-28 h-0.5 bg-gray-300 mt-5 mb-4"></div>
+                    <h2 class="font-normal text-gray-700 text-3xl md:text-4xl mb-4">Google Maps API</h2>
+                    <p class="font-normal text-gray-500 text-sm md:text-base mb-10">En este proyecto he implementado la integración de una API de Google en un proyecto desarrollado en C# y .NET. Esta implementación demuestra mi capacidad para utilizar tecnologías de backend como .NET para consumir y manipular datos de APIs externas, ofreciendo soluciones eficientes y robustas.</p>
+                </div>
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">02</h1>
+                    <div class="w-28 h-0.5 bg-gray-300 mt-5 mb-4"></div>
+                    <h2 class="font-normal text-gray-700 text-3xl md:text-4xl mb-4">Proyecto SISCADTIC</h2>
+                    <p class="font-normal text-gray-500 text-sm md:text-base mb-10">Lideré un proyecto integrador en el ámbito de SISCADTIC, donde coordiné el desarrollo de una solución integral para la gestión de datos y procesos académicos. Esta implementación optimizó la eficiencia operativa y mejoró la experiencia tanto para administradores como para usuarios finales.</p>
+                </div>
+                <div class="bg-gray-50 px-8 py-10 rounded-md">
+                    <h1 class="font-normal text-gray-700 text-3xl md:text-4xl">03</h1>
+                    <div class="w-28 h-0.5 bg-gray-300 mt-5 mb-4"></div>
+                    <h2 class="font-normal text-gray-700 text-3xl md:text-4xl mb-4">POKEDEX</h2>
+                    <p class="font-normal text-gray-500 text-sm md:text-base mb-10">Desarrollé una aplicación en Xamarin Forms llamada Pokédex altamente funcional que permitía a los usuarios agregar, eliminar y modificar información de Pokémon. Destacando por su interfaz intuitiva y sus características de gestión de datos sólidas y fiables.</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Educación</h1>
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-10">A continuación muestro el lugar donde estudio</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            <div class="bg-gray-50 px-8 py-10 rounded-md">
+                <h4 class="font-medium text-gray-700 text-lg mb-4">2022 – 2024</h4>
+                <p class="font-normal text-gray-500 text-md mb-4">Universidad Tecnológica del Sur de Sonora - UTS</p>
+            </div>
+        </div>
+
+        <div class="text-center mb-16">
+            <h1 class="font-normal text-gray-300 text-3xl md:text-6xl lg:text-7xl mb-10">Por favor no midas tus habilidades en porcentajes!</h1>
+            <p class="font-medium text-gray-700 text-xs md:text-base">En mis muchos años de experiencia, uso C# para proyectos backend y Boostrap para proyectos front-end. Soy un ávido programador.</p>
+        </div>
+
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Experiencia</h1>
+        <p class="font-normal text-gray-500 text-xs md:text-base mb-10">Alta experiencia en {{this.drivers[0].descripcion}}</p>
+
+    </section>
+
+    <footer class="py-10 md:py-16 mb-20 md:mb-40 lg:mb-52 w-full max-w-screen-xl mx-auto px-4">
+        <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Contacto</h1>
+        <div class="overflow-x-auto">
+            <table class="table-auto w-full">
+                <thead>
+                    <tr>
+                        <th class="px-4 py-2">ID</th>
+                        <th class="px-4 py-2">Teléfono</th>
+                        <th class="px-4 py-2">Correo</th>
+                        <th class="px-4 py-2">Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        @for(driver of drivers; track drivers.indexOf) {
+                            <td>{{ driver.id }}</td>
+                            <td>{{ driver.telefono }}</td>
+                            <td>{{ driver.correo }}</td>
+                            <td>{{ driver.edad }}</td>
+                        }
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
+
+</body>
